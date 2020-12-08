@@ -13,4 +13,4 @@ int main(int argc, const char* argv[])
     }
     cout << "After loop ends, word is " << word << endl;
     return 0;
-}
+} 
