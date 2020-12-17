@@ -1,2 +1,6 @@
-﻿  Source.cpp
+﻿  Screen.cpp
+  ScreenBuffer.cpp
+  Vec2D.cpp
+  Generating Code...
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(16): warning C4715: 'Screen::Init': not all control paths return a value
   Arcade App.vcxproj -> D:\Programming\C++\workspace\Arcade App\Debug\Arcade App.exe
