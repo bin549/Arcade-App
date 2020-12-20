@@ -11,7 +11,7 @@ App& App::Singleton()
 bool App::Init(uint32_t width, uint32_t height, uint32_t mag)
 {
 	mnoptrWindow = mScreen.Init(width, height, mag);
-	return true;
+	return mnoptrWindow;
 }
 
 void App::Run()

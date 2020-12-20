@@ -17,7 +17,6 @@ public:
 private:
 	Screen mScreen;
 	SDL_Window* mnoptrWindow;
-
 };
 
 #endif
