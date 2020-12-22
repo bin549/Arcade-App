@@ -8,13 +8,25 @@
 
 struct SDL_Window;
 
+struct SDL_Window;
+struct SDL_Surface;
+struct SDL_Renderer;
+struct SDL_PixelFormat;
+struct SDL_Texture;
 
 class Screen
 {
 public:
+	Screen();
+	~Screen();
 	SDL_Window* Init(uint32_t w, uint32_t h, uint32_t mag, bool fast = true);
+	void SwapScreens();
 
 private:
+	Screen(const Screen& screen);
+
+	void ClearScreen();
+
 	uint32_t mWidth;
 	uint32_t mHeight;
 

@@ -1,12 +1,10 @@
 ﻿  App.cpp
-D:\Programming\C++\workspace\Arcade App\Arcade App\App.cpp(7): error C2280: 'App::App(void)': attempting to reference a deleted function
-D:\Programming\C++\workspace\Arcade App\Arcade App\App.h(20): message : compiler has generated 'App::App' here
-D:\Programming\C++\workspace\Arcade App\Arcade App\App.h(20,1): message : 'App::App(void)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'Screen::Screen(void)'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(32,1): message : 'Screen::Screen(void)': function was implicitly deleted because a data member 'Screen::mClearColor' has either no appropriate default constructor or overload resolution was ambiguous
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(21): message : see declaration of 'Screen::mClearColor'
   ArcadeApp.cpp
   Color.cpp
+  GameController.cpp
+  InputController.cpp
   Screen.cpp
   ScreenBuffer.cpp
   Vec2D.cpp
   Generating Code...
+  Arcade App.vcxproj -> D:\Programming\C++\workspace\Arcade App\Debug\Arcade App.exe

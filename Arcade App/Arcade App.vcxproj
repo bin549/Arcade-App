@@ -142,6 +142,8 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="ArcadeApp.cpp" />
     <ClCompile Include="Color.cpp" />
+    <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="InputController.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenBuffer.cpp" />
     <ClCompile Include="Vec2D.cpp" />
@@ -149,6 +151,9 @@
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="GameController.h" />
+    <ClInclude Include="InputAction.h" />
+    <ClInclude Include="InputController.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenBuffer.h" />
     <ClInclude Include="Vec2D.h" />
