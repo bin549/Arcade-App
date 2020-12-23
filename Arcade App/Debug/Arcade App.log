@@ -1,10 +1,20 @@
-﻿  App.cpp
+﻿  AARectangle.cpp
+  App.cpp
   ArcadeApp.cpp
+  ArcadeScene.cpp
+  BitmapFont.cpp
+  BMPImage.cpp
+  Button.cpp
+  ButtonOptionsScene.cpp
   Color.cpp
+  FileCommandLoader.cpp
   GameController.cpp
   InputController.cpp
   Screen.cpp
   ScreenBuffer.cpp
+  Shape.cpp
+  SpriteSheet.cpp
   Vec2D.cpp
   Generating Code...
-  Arcade App.vcxproj -> D:\Programming\C++\workspace\Arcade App\Debug\Arcade App.exe
+ArcadeScene.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall ArcadeScene::Init(void)" (?Init@ArcadeScene@@UAEXXZ)
+D:\Programming\C++\workspace\Arcade App\Debug\Arcade App.exe : fatal error LNK1120: 1 unresolved externals

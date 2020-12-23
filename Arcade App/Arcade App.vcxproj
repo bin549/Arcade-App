@@ -139,23 +139,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AARectangle.cpp" />
     <ClCompile Include="App.cpp" />
     <ClCompile Include="ArcadeApp.cpp" />
+    <ClCompile Include="ArcadeScene.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="BMPImage.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ButtonOptionsScene.cpp" />
     <ClCompile Include="Color.cpp" />
+    <ClCompile Include="FileCommandLoader.cpp" />
     <ClCompile Include="GameController.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="InputController.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenBuffer.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SpriteSheet.cpp" />
     <ClCompile Include="Vec2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AARectangle.h" />
     <ClInclude Include="App.h" />
+    <ClInclude Include="ArcadeScene.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="BMPImage.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="ButtonOptionsScene.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="FileCommandLoader.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GameController.h" />
+    <ClInclude Include="GameScene.h" />
     <ClInclude Include="InputAction.h" />
     <ClInclude Include="InputController.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenBuffer.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SpriteSheet.h" />
     <ClInclude Include="Vec2D.h" />
   </ItemGroup>
   <ItemGroup>

@@ -7,8 +7,12 @@ class GameController
 {
 public:
 	GameController();
+	inline const MouseMovedAction& GetMouseMovedAction() { return mMouseMovedAction; }
+
 private:
 	MouseMovedAction mMouseMovedAction;
+
+
 };
 
 #endif
