@@ -3,10 +3,31 @@
 
 #include <functional>
 
+#include "BitmapFont.h"
+#include "Color.h"
+#include "AARectangle.h"
+
+class Screen;
+
 class Button
 {
 public:
 	using ButtonAction = std::function<void(void)>;
+	Button(const BitmapFont& bitmapFont, const Color& textColor, const Color& highlightColor = Color::White());
+	void Init(Vec2D topLeft, unsigned int width, unsigned height);
+	void Draw(Screen& theScreen);
+	inline void SetButtonText(const std::string& text) { mTitle = text; }
+	inline void SetHighlighted(bool highlighted) { mHighlighted = highlighted; }
+	inline void SetButtonAction(Button::ButtonAction action) { mAction = action; }
+
+private:
+	const BitmapFont& mBitmapFont;
+	std::string mTitle;
+	AARectangle mBBox;
+	Color mTextColor;
+	Color mHighlightColor;
+	ButtonAction mAction;
+	bool mHighlighted;
 };
 
 

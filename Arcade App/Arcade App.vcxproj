@@ -145,17 +145,24 @@
     <ClCompile Include="ArcadeScene.cpp" />
     <ClCompile Include="BitmapFont.cpp" />
     <ClCompile Include="BMPImage.cpp" />
+    <ClCompile Include="BreakOut.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="ButtonOptionsScene.cpp" />
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="FileCommandLoader.cpp" />
     <ClCompile Include="GameController.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="InputController.cpp" />
+    <ClCompile Include="Line2D.cpp" />
+    <ClCompile Include="NotImplementedScene.cpp" />
+    <ClCompile Include="PacmanStartScene.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenBuffer.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="SpriteSheet.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Vec2D.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -164,8 +171,10 @@
     <ClInclude Include="ArcadeScene.h" />
     <ClInclude Include="BitmapFont.h" />
     <ClInclude Include="BMPImage.h" />
+    <ClInclude Include="BreakOut.h" />
     <ClInclude Include="Button.h" />
     <ClInclude Include="ButtonOptionsScene.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="FileCommandLoader.h" />
     <ClInclude Include="Game.h" />
@@ -173,11 +182,18 @@
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="InputAction.h" />
     <ClInclude Include="InputController.h" />
+    <ClInclude Include="Line2D.h" />
+    <ClInclude Include="NotImplementedScene.h" />
+    <ClInclude Include="Pacman.h" />
+    <ClInclude Include="PacmanGame.h" />
+    <ClInclude Include="PacmanStartScene.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenBuffer.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="SpriteSheet.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Vec2D.h" />
   </ItemGroup>
   <ItemGroup>

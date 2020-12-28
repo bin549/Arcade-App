@@ -34,6 +34,15 @@
     <Filter Include="Source Files\Games">
       <UniqueIdentifier>{380ba04c-8af7-4d63-83c0-ab460d8b2513}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Games\BreakOut">
+      <UniqueIdentifier>{fbb4dd99-e68c-49c0-82ca-89ab83bf23d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Pacman">
+      <UniqueIdentifier>{9290346b-7c2b-4376-a1fb-7d55215ee5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Pacman">
+      <UniqueIdentifier>{7a5c19a6-b119-451e-886a-48d1e681897b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArcadeApp.cpp">
@@ -89,6 +98,27 @@
     </ClCompile>
     <ClCompile Include="GameScene.cpp">
       <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanStartScene.cpp">
+      <Filter>Source Files\Scenes\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakOut.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="NotImplementedScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +181,33 @@
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Source Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakOut.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanGame.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="NotImplementedScene.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanStartScene.h">
+      <Filter>Source Files\Scenes\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Source Files\Shapes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
