@@ -1,9 +1,9 @@
 #include "Vec2D.h"
 #include "Utils.h"
-
 #include <cassert>
 #include <cmath>
 
+const Vec2D Vec2D::Zero;
 
 std::ostream& operator<<(std::ostream& consoleOut, const Vec2D& vec)
 {

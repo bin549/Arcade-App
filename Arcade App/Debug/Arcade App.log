@@ -1,13 +1,5 @@
 ﻿  AARectangle.cpp
   App.cpp
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,46): error C2039: 'string': is not a member of 'std'
-D:\software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,52): error C2143: syntax error: missing ',' before '&'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,47): error C2039: 'string': is not a member of 'std'
-D:\software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,53): error C2143: syntax error: missing ',' before '&'
   ArcadeApp.cpp
   ArcadeScene.cpp
   BitmapFont.cpp
@@ -37,38 +29,22 @@ D:\Programming\C++\workspace\Arcade App\Arcade App\Color.cpp(110,57): warning C4
   NotImplementedScene.cpp
   PacmanStartScene.cpp
   Screen.cpp
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,46): error C2039: 'string': is not a member of 'std'
-D:\software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(43,52): error C2143: syntax error: missing ',' before '&'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,47): error C2039: 'string': is not a member of 'std'
-D:\software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(44,53): error C2143: syntax error: missing ',' before '&'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(135,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(135,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(134,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(134,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(144,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(145,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(146,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(147,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(148,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(274,30): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(275,35): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(276,40): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(276,33): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(295,77): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(295,59): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(302,1): error C2511: 'void Screen::Draw(const SpriteSheet &,const std::string &,const Vec2D &,const Color &)': overloaded member function not found in 'Screen'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(26): message : see declaration of 'Screen'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(303,2): error C2352: 'Screen::Draw': illegal call of non-static member function
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(261): message : see declaration of 'Screen::Draw'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(307,1): error C2511: 'void Screen::Draw(const BitmapFont &,const std::string &,const Vec2D &,const Color &)': overloaded member function not found in 'Screen'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.h(26): message : see declaration of 'Screen'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(308,16): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(318,40): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(318,3): error C2352: 'Screen::Draw': illegal call of non-static member function
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(261): message : see declaration of 'Screen::Draw'
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(369,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(408,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(273,30): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(274,35): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(275,40): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(275,33): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(294,77): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(294,59): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(307,16): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(317,40): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(368,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(407,22): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=float
@@ -82,3 +58,4 @@ D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(408,22): warning C
   Utils.cpp
   Vec2D.cpp
   Generating Code...
+  Arcade App.vcxproj -> D:\Programming\C++\workspace\Arcade App\Debug\Arcade App.exe

@@ -2,6 +2,7 @@
 #define GRAPHICS_SCREEN_H_
 
 #include <functional>
+#include <string>
 #include <vector>
 #include <stdint.h>
 #include "ScreenBuffer.h"

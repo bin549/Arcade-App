@@ -21,4 +21,4 @@ struct Size
 	unsigned int width = 0, height = 0;
 };
 
-#endif
+#endif UTILS_UTILS_H_

@@ -2,7 +2,6 @@
 #include "App.h"
 
 
-
 ButtonOptionsScene::ButtonOptionsScene(const std::vector<std::string>& optionNames, const Color& textColor) : mHighlightedOption(0)
 {
 	const BitmapFont& font = App::Singleton().GetFont();
@@ -19,7 +18,6 @@ ButtonOptionsScene::ButtonOptionsScene(const std::vector<std::string>& optionNam
 		mButtons[mHighlightedOption].SetHighlighted(true);
 	}
 }
-
 
 void ButtonOptionsScene::Init()
 {

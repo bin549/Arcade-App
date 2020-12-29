@@ -2,7 +2,6 @@
 #include <cassert>
 #include <cmath>
 #include <algorithm>
-
 #include "Screen.h"
 #include "Vec2D.h"
 #include "Line2D.h"

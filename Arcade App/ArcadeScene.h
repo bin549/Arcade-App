@@ -13,6 +13,8 @@ enum eGame
 	NUM_GAMES
 };
 
+class Screen;
+
 class ArcadeScene : public ButtonOptionsScene
 {
 public:
