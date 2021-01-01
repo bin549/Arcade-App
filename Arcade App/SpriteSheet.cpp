@@ -15,12 +15,6 @@ bool SpriteSheet::Load(const std::string& name)
 	return loadedImage && loadedSpriteSections;
 }
 
-bool SpriteSheet::LoadSpriteSections(const std::string& path)
-{
-	FileCommandLoader fileLoader;
-	return fileLoader.LoadFile(path);
-}
-
 Sprite SpriteSheet::GetSprite(const std::string& spriteName) const
 {
 	size_t length = mSections.size();
@@ -34,4 +28,10 @@ Sprite SpriteSheet::GetSprite(const std::string& spriteName) const
 	}
 
 	return Sprite();
+}
+
+bool SpriteSheet::LoadSpriteSections(const std::string& path)
+{
+	FileCommandLoader fileLoader;
+	return fileLoader.LoadFile(path);
 }

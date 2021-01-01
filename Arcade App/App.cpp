@@ -1,8 +1,8 @@
 #include "App.h"
-#include <SDL.h>
-#include <iostream>
 #include "ArcadeScene.h"
 #include "InputAction.h"
+#include <SDL.h>
+#include <iostream>
 #include <cassert>
 
 App& App::Singleton()
@@ -64,12 +64,6 @@ void App::Run()
 	}
 }
 
-const std::string& App::GetBasePath()
-{
-	static std::string basePath = SDL_GetBasePath();
-	return basePath;
-}
-
 void App::PushScene(std::unique_ptr<Scene> scene)
 {
 	assert(scene && "Don't push nullptr");
@@ -88,7 +82,6 @@ void App::PopScene()
 	{
 		mSceneStack.pop_back();
 	}
-
 	if (TopScene())
 	{
 		mInputController.SetGameController(TopScene()->GetGameController());
@@ -103,4 +96,10 @@ Scene* App::TopScene()
 		return nullptr;
 	}
 	return mSceneStack.back().get();
+}
+
+const std::string& App::GetBasePath()
+{
+	static std::string basePath = SDL_GetBasePath();
+	return basePath;
 }

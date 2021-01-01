@@ -19,6 +19,10 @@ public:
 	void SetButtonActions(const std::vector<Button::ButtonAction>& buttonActions);
 
 private:
+	void SetNextButtonHighlighted();
+	void SetPreviousButtonHighlighted();
+	void ExecuteCurrentButtonAction();
+	void HighlightCurrentButton();
 	int mHighlightedOption;
 	std::vector<Button> mButtons;
 };

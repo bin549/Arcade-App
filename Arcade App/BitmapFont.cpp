@@ -9,6 +9,29 @@ bool BitmapFont::Load(const std::string& name)
 	return mFontSheet.Load(name);
 }
 
+Size BitmapFont::GetSizeOf(const std::string& str) const
+{
+	Size textSize;
+	size_t length = str.length();
+	int i = 0;
+	for (char c : str)
+	{
+		if (c == ' ')
+		{
+			textSize.width += GetFontSpacingBetweenWords();
+			continue;
+		}
+		Sprite sprite = mFontSheet.GetSprite(std::string("") + c);
+		textSize.height = textSize.height < sprite.height ? sprite.height : textSize.height;
+		textSize.width += sprite.width;
+		if (i + 1 < length)
+		{
+			textSize.width += GetFontSpacingBetweenLetters();
+		}
+	}
+	return textSize;
+}
+
 Vec2D BitmapFont::GetDrawPosition(const std::string& str, const AARectangle& box, BitmapFontXAlignment xAlign, BitmapFontYAlignment yAlign) const
 {
 	Size textSize = GetSizeOf(str);
@@ -39,31 +62,4 @@ Vec2D BitmapFont::GetDrawPosition(const std::string& str, const AARectangle& box
 	y += box.GetTopLeftPoint().GetY();
 
 	return Vec2D(x, y);
-}
-
-Size BitmapFont::GetSizeOf(const std::string& str) const
-{
-	Size textSize;
-	size_t length = str.length();
-	int i = 0;
-
-	for (char c : str)
-	{
-		if (c == ' ')
-		{
-			textSize.width += GetFontSpacingBetweenWords();
-
-			continue;
-		}
-
-		Sprite sprite = mFontSheet.GetSprite(std::string("") + c);
-		textSize.height = textSize.height < sprite.height ? sprite.height : textSize.height;
-		textSize.width += sprite.width;
-
-		if (i + 1 < length)
-		{
-			textSize.width += GetFontSpacingBetweenLetters();
-		}
-	}
-	return textSize;
 }

@@ -16,8 +16,11 @@ public:
 	Button(const BitmapFont& bitmapFont, const Color& textColor, const Color& highlightColor = Color::White());
 	void Init(Vec2D topLeft, unsigned int width, unsigned height);
 	void Draw(Screen& theScreen);
+	void ExecuteAction(); 
 	inline void SetButtonText(const std::string& text) { mTitle = text; }
+	inline const std::string& GetButtonText() const { return mTitle; }
 	inline void SetHighlighted(bool highlighted) { mHighlighted = highlighted; }
+	inline bool IsHighlighted() const { return mHighlighted; }
 	inline void SetButtonAction(Button::ButtonAction action) { mAction = action; }
 
 private:
