@@ -1,8 +1,7 @@
 #include "App.h"
-#include "ArcadeScene.h"
-#include "InputAction.h"
 #include <SDL.h>
 #include <iostream>
+#include "ArcadeScene.h"
 #include <cassert>
 
 App& App::Singleton()
@@ -18,11 +17,10 @@ bool App::Init(uint32_t width, uint32_t height, uint32_t mag)
 		std::cout << "Could not load arcade font!" << std::endl;
 		return false;
 	}
-
 	mnoptrWindow = mScreen.Init(width, height, mag);
 	std::unique_ptr<ArcadeScene> arcadeScene = std::make_unique<ArcadeScene>();
 	PushScene(std::move(arcadeScene));
-	return mnoptrWindow;
+	return mnoptrWindow != nullptr;
 }
 
 void App::Run()

@@ -1,7 +1,8 @@
-#include "Vec2D.h"
-#include "Utils.h"
 #include <cassert>
 #include <cmath>
+
+#include "Vec2D.h"
+#include "Utils.h"
 
 const Vec2D Vec2D::Zero;
 
@@ -89,9 +90,58 @@ float Vec2D::Mag() const
 	return sqrtf(Mag2());
 }
 
+Vec2D Vec2D::GetUnitVec() const
+{
+	float mag = Mag();
+
+	if (mag > EPSILON)
+	{
+		return *this / mag;
+	}
+
+	return Vec2D::Zero;
+}
+
+Vec2D& Vec2D::Normalize()
+{
+	float mag = Mag();
+
+	if (mag > EPSILON)
+	{
+		*this /= mag;
+	}
+
+	return *this;
+}
+
+float Vec2D::Distance(const Vec2D& vec) const
+{
+	return (vec - *this).Mag();
+}
+
 float Vec2D::Dot(const Vec2D& vec) const
 {
 	return mX * vec.mX + mY * vec.mY;
+}
+
+Vec2D Vec2D::ProjectOnto(const Vec2D& vec2) const
+{
+	Vec2D unitVec2 = vec2.GetUnitVec();
+
+	float dot = Dot(unitVec2);
+
+	return unitVec2 * dot;
+}
+
+float Vec2D::AngleBetween(const Vec2D& vec2) const
+{
+	return acosf(GetUnitVec().Dot(vec2.GetUnitVec()));
+}
+
+Vec2D Vec2D::Reflect(const Vec2D& normal) const
+{
+	//v - 2(v dot n)n
+	return *this - 2 * ProjectOnto(normal);
 }
 
 void Vec2D::Rotate(float angle, const Vec2D& aroundPoint)
@@ -104,4 +154,16 @@ void Vec2D::Rotate(float angle, const Vec2D& aroundPoint)
 	float yRot = thisVec.mX * sine + thisVec.mY * cosine;
 	Vec2D rot = Vec2D(xRot, yRot);
 	*this = rot + aroundPoint;
+}
+
+Vec2D Vec2D::RotationResult(float angle, const Vec2D& aroundPoint) const
+{
+	float cosine = cosf(angle);
+	float sine = sinf(angle);
+	Vec2D thisVec(mX, mY);
+	thisVec -= aroundPoint;
+	float xRot = thisVec.mX * cosine - thisVec.mY * sine;
+	float yRot = thisVec.mX * sine + thisVec.mY * cosine;
+	Vec2D rot = Vec2D(xRot, yRot);
+	return rot + aroundPoint;
 }

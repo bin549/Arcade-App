@@ -1,36 +1,43 @@
 d:\programming\c++\workspace\arcade app\arcade app\debug\vc142.pdb
 d:\programming\c++\workspace\arcade app\arcade app\debug\vc142.idb
-d:\programming\c++\workspace\arcade app\arcade app\debug\screenbuffer.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\screen.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\pacmanstartscene.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\notimplementedscene.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\line2d.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\inputcontroller.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\gamescene.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\gamecontroller.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\filecommandloader.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\excluder.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\color.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\circle.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\buttonoptionsscene.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\button.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\breakoutgamelevel.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\breakout.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\boundaryedge.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\bmpimage.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\block.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\bitmapfont.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\ball.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\arcadescene.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\arcadeapp.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\app.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\animationplayer.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\animation.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\animatedsprite.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\actor.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\aarectangle.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\vec2d.obj
-d:\programming\c++\workspace\arcade app\arcade app\debug\utils.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\triangle.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\spritesheet.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\shape.obj
-d:\programming\c++\workspace\arcade app\debug\arcade app.ilk
-d:\programming\c++\workspace\arcade app\debug\arcade app.exe
-d:\programming\c++\workspace\arcade app\debug\arcade app.pdb
+d:\programming\c++\workspace\arcade app\arcade app\debug\screenbuffer.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\screen.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\paddle.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\pacmangameutils.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\pacman.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\notimplementedscene.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\line2d.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\levelboundary.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\inputcontroller.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\ghost.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\gamescene.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\gamecontroller.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\filecommandloader.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\vec2d.obj
+d:\programming\c++\workspace\arcade app\arcade app\debug\utils.obj
 d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\cl.command.1.tlog
 d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\cl.read.1.tlog
 d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\cl.write.1.tlog
-d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\link.command.1.tlog
-d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\link.read.1.tlog
-d:\programming\c++\workspace\arcade app\arcade app\debug\arcade app.tlog\link.write.1.tlog

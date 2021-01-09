@@ -2,9 +2,10 @@
 #define APP_APP_H_
 
 #include "Screen.h"
-#include "Scene.h"
 #include <stdint.h>
+#include <vector>
 #include <memory>
+#include "Scene.h"
 #include "InputController.h"
 #include "BitmapFont.h"
 
@@ -20,8 +21,8 @@ public:
 	inline uint32_t Height() const { return mScreen.Height(); }
 	void PushScene(std::unique_ptr<Scene> scene);
 	void PopScene();
-	static const std::string& GetBasePath();
 	Scene* TopScene();
+	static const std::string& GetBasePath();
 	inline const BitmapFont& GetFont() const { return mFont; }
 
 private:
@@ -32,4 +33,5 @@ private:
 	BitmapFont mFont;
 };
 
-#endif
+#endif 
+

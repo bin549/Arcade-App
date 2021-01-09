@@ -1,7 +1,21 @@
 ﻿  AARectangle.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\AARectangle.cpp(63,108): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\AARectangle.cpp(63,70): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Actor.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\Actor.cpp(20,51): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Actor.cpp(29,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Actor.cpp(34,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Actor.cpp(44,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Actor.cpp(49,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  AnimatedSprite.cpp
+  Animation.cpp
+  AnimationPlayer.cpp
   App.cpp
   ArcadeApp.cpp
   ArcadeScene.cpp
+  Ball.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\Ball.cpp(13,103): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\Ball.cpp(13,88): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
   BitmapFont.cpp
 D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(26,13): warning C4018: '<': signed/unsigned mismatch
 D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(41,26): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data
@@ -12,26 +26,86 @@ D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(54,23): warnin
 D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(56,35): warning C4244: '+=': conversion from 'float' to 'uint32_t', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(57,18): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\BitmapFont.cpp(57,15): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+  Block.cpp
   BMPImage.cpp
+  BoundaryEdge.cpp
   BreakOut.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakOut.cpp(139,59): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakOut.cpp(157,39): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakOut.cpp(160,118): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakOut.cpp(160,64): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakOut.cpp(164,46): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+  BreakoutGameLevel.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakoutGameLevel.cpp(82,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakoutGameLevel.cpp(93,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakoutGameLevel.cpp(226,63): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\BreakoutGameLevel.cpp(228,21): warning C4018: '<': signed/unsigned mismatch
   Button.cpp
   ButtonOptionsScene.cpp
-D:\Programming\C++\workspace\Arcade App\Arcade App\ButtonOptionsScene.cpp(85,53): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
-D:\Programming\C++\workspace\Arcade App\Arcade App\ButtonOptionsScene.cpp(85,31): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\ButtonOptionsScene.cpp(84,53): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\ButtonOptionsScene.cpp(84,31): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
   Circle.cpp
   Color.cpp
 D:\Programming\C++\workspace\Arcade App\Arcade App\Color.cpp(108,55): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Color.cpp(109,59): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Color.cpp(110,57): warning C4244: 'argument': conversion from 'float' to 'uint8_t', possible loss of data
+  Excluder.cpp
+  Generating Code...
+  Compiling...
   FileCommandLoader.cpp
 D:\Programming\C++\workspace\Arcade App\Arcade App\FileCommandLoader.cpp(108,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\FileCommandLoader.cpp(108,15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   GameController.cpp
   GameScene.cpp
+  Ghost.cpp
+  GhostAI.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.h(33,91): warning C4244: 'return': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\GhostAI.cpp(125,55): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\GhostAI.cpp(131,30): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
   InputController.cpp
+  LevelBoundary.cpp
   Line2D.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\Line2D.cpp(52,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   NotImplementedScene.cpp
+  Pacman.cpp
+  PacmanGame.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.h(33,91): warning C4244: 'return': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(75,61): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(75,126): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(217,98): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(243,98): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(243,66): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(301,66): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(302,88): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(302,61): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(304,66): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(315,65): warning C4244: 'argument': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(325,62): warning C4244: 'argument': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(335,59): warning C4244: 'argument': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanGame.cpp(345,62): warning C4244: 'argument': conversion from 'float' to 'uint32_t', possible loss of data
+  PacmanGameUtils.cpp
+  PacmanLevel.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.h(33,91): warning C4244: 'return': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(88,73): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(234,41): warning C4018: '>=': signed/unsigned mismatch
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(247,21): warning C4018: '>=': signed/unsigned mismatch
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(247,58): warning C4018: '<=': signed/unsigned mismatch
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(316,21): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(319,53): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(319,30): warning C4244: 'initializing': conversion from 'float' to 'const uint32_t', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(336,43): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(336,36): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(346,44): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(346,41): warning C4244: 'argument': conversion from 'uint32_t' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(545,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(547,21): warning C4018: '<': signed/unsigned mismatch
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(553,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(559,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(566,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.cpp(605,28): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
   PacmanStartScene.cpp
+D:\Programming\C++\workspace\Arcade App\Arcade App\PacmanLevel.h(33,91): warning C4244: 'return': conversion from 'float' to 'uint32_t', possible loss of data
+  Paddle.cpp
   Screen.cpp
 D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(134,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(134,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
@@ -54,11 +128,11 @@ D:\Programming\C++\workspace\Arcade App\Arcade App\Screen.cpp(407,22): warning C
               _Ty=float
           ]
   ScreenBuffer.cpp
-  Generating Code...
-  Compiling...
   Shape.cpp
   SpriteSheet.cpp
   Triangle.cpp
+  Generating Code...
+  Compiling...
   Utils.cpp
   Vec2D.cpp
   Generating Code...

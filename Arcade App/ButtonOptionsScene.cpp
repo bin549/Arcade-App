@@ -4,7 +4,6 @@
 #include "Utils.h"
 #include <iostream>
 
-
 ButtonOptionsScene::ButtonOptionsScene(const std::vector<std::string>& optionNames, const Color& textColor) : mHighlightedOption(0)
 {
 	const BitmapFont& font = App::Singleton().GetFont();
@@ -109,6 +108,12 @@ void ButtonOptionsScene::SetButtonActions(const std::vector<Button::ButtonAction
 	}
 }
 
+void ButtonOptionsScene::SetNextButtonHighlighted()
+{
+	mHighlightedOption = (mHighlightedOption + 1) % mButtons.size();
+	HighlightCurrentButton();
+}
+
 void ButtonOptionsScene::SetPreviousButtonHighlighted()
 {
 	--mHighlightedOption;
@@ -119,10 +124,9 @@ void ButtonOptionsScene::SetPreviousButtonHighlighted()
 	HighlightCurrentButton();
 }
 
-void ButtonOptionsScene::SetNextButtonHighlighted()
+void ButtonOptionsScene::ExecuteCurrentButtonAction()
 {
-	mHighlightedOption = (mHighlightedOption + 1) % mButtons.size();
-	HighlightCurrentButton();
+	mButtons[mHighlightedOption].ExecuteAction();
 }
 
 void ButtonOptionsScene::HighlightCurrentButton()
@@ -132,9 +136,4 @@ void ButtonOptionsScene::HighlightCurrentButton()
 		button.SetHighlighted(false);
 	}
 	mButtons[mHighlightedOption].SetHighlighted(true);
-}
-
-void ButtonOptionsScene::ExecuteCurrentButtonAction()
-{
-	mButtons[mHighlightedOption].ExecuteAction();
 }

@@ -22,8 +22,8 @@ private:
 	void SetPreviousButtonHighlighted();
 	void ExecuteCurrentButtonAction();
 	void HighlightCurrentButton();
-	int mHighlightedOption;
 	std::vector<Button> mButtons;
+	int mHighlightedOption;
 };
 
 #endif

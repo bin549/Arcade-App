@@ -120,6 +120,57 @@
     <ClCompile Include="Triangle.cpp">
       <Filter>Source Files\Shapes</Filter>
     </ClCompile>
+    <ClCompile Include="BreakoutGameLevel.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Excluder.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryEdge.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBoundary.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanGame.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanGameUtils.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="PacmanLevel.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostAI.cpp">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationPlayer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h">
@@ -208,6 +259,51 @@
     </ClInclude>
     <ClInclude Include="Triangle.h">
       <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakoutGameLevel.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Excluder.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryEdge.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBoundary.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Source Files\Games\BreakOut</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanGameUtils.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="PacmanLevel.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostAI.h">
+      <Filter>Source Files\Games\Pacman</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationPlayer.h">
+      <Filter>Source Files\Graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

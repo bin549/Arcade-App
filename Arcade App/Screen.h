@@ -1,10 +1,10 @@
 #ifndef GRAPHICS_SCREEN_H_
 #define GRAPHICS_SCREEN_H_
 
-#include <functional>
-#include <string>
-#include <vector>
 #include <stdint.h>
+#include <string>
+#include <functional>
+#include <vector>
 #include "ScreenBuffer.h"
 #include "Color.h"
 
@@ -17,12 +17,12 @@ class BMPImage;
 class SpriteSheet;
 class BitmapFont;
 
-struct Sprite;
 struct SDL_Window;
 struct SDL_Surface;
 struct SDL_Renderer;
 struct SDL_PixelFormat;
 struct SDL_Texture;
+struct Sprite;
 
 class Screen
 {

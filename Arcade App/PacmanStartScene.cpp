@@ -1,14 +1,39 @@
 #include "PacmanStartScene.h"
+#include "App.h"
+#include "NotImplementedScene.h"
+#include "GameScene.h"
+#include "PacmanGame.h"
+#include <vector>
+#include <memory>
 
 PacmanStartScene::PacmanStartScene() : ButtonOptionsScene({ "Play Game", "High Scores" }, Color::Yellow())
 {
 }
 
-
 void PacmanStartScene::Init()
 {
-	ButtonOptionsScene::Init();
+	ButtonAction backAction;
+	backAction.key = GameController::CancelKey();
+	backAction.action = [](uint32_t dt, InputState state) {
+		if (GameController::IsPressed(state))
+		{
+			App::Singleton().PopScene();
+		}
+	};
+	mGameController.AddInputActionForKey(backAction);
 
+	std::vector<Button::ButtonAction> actions;
+	actions.push_back([]() {
+		auto pacmanGame = std::make_unique<PacmanGame>();
+		App::Singleton().PushScene(std::make_unique<GameScene>(std::move(pacmanGame)));
+	});
+
+	actions.push_back([]() {
+		App::Singleton().PushScene(std::make_unique<NotImplementedScene>());
+	});
+
+	SetButtonActions(actions);
+	ButtonOptionsScene::Init();
 }
 
 void PacmanStartScene::Update(uint32_t dt)
