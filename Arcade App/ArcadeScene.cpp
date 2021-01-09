@@ -1,10 +1,12 @@
 #include "ArcadeScene.h"
+#include "Screen.h"
+#include "GameController.h"
+#include <iostream>
 #include "App.h"
 #include "GameScene.h"
 #include "BreakOut.h"
-#include "PacmanStartScene.h"
-
 #include "NotImplementedScene.h"
+#include "PacmanStartScene.h"
 
 ; ArcadeScene::ArcadeScene() : ButtonOptionsScene({ "Tetris", "Break Out!", "Asteroids", "Pac-man" }, Color::Cyan())
 {

@@ -1,8 +1,7 @@
 #include "BitmapFont.h"
-
 #include "AARectangle.h"
-#include <iostream>
 #include "Vec2D.h"
+#include <iostream>
 
 bool BitmapFont::Load(const std::string& name)
 {
@@ -35,10 +34,8 @@ Size BitmapFont::GetSizeOf(const std::string& str) const
 Vec2D BitmapFont::GetDrawPosition(const std::string& str, const AARectangle& box, BitmapFontXAlignment xAlign, BitmapFontYAlignment yAlign) const
 {
 	Size textSize = GetSizeOf(str);
-
 	uint32_t x = 0;
 	uint32_t y = 0;
-
 	if (xAlign == BFXA_CENTER)
 	{
 		x = box.GetWidth() / 2 - textSize.width / 2;
@@ -47,9 +44,7 @@ Vec2D BitmapFont::GetDrawPosition(const std::string& str, const AARectangle& box
 	{
 		x = box.GetWidth() - textSize.width;
 	}
-
 	x += box.GetTopLeftPoint().GetX();
-
 	if (yAlign == BFYA_CENTER)
 	{
 		y = (box.GetHeight() / 2) - textSize.height / 2;
@@ -58,8 +53,6 @@ Vec2D BitmapFont::GetDrawPosition(const std::string& str, const AARectangle& box
 	{
 		y = box.GetHeight() - textSize.height;
 	}
-
 	y += box.GetTopLeftPoint().GetY();
-
 	return Vec2D(x, y);
 }

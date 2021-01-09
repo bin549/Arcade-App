@@ -19,8 +19,8 @@ class SpriteSheet
 public:
 	SpriteSheet();
 	bool Load(const std::string& name);
-	std::vector<std::string> SpriteNames() const;
 	Sprite GetSprite(const std::string& spriteName) const;
+	std::vector<std::string> SpriteNames() const;
 	inline const BMPImage& GetBMPImage() const { return mBMPImage; }
 	inline uint32_t GetWidth() const { return mBMPImage.GetWidth(); }
 	inline uint32_t GetHeight() const { return mBMPImage.GetHeight(); }

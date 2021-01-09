@@ -2,8 +2,12 @@
 #define UTILS_FILECOMMANDLOADER_H_
 
 #include <functional>
-#include <string>
 #include <vector>
+#include <string>
+#include <stdint.h>
+
+class Color;
+class Vec2D;
 
 enum CommandType
 {
@@ -30,7 +34,13 @@ struct Command
 class FileCommandLoader
 {
 public:
+	void AddCommand(const Command& command);
 	bool LoadFile(const std::string& filePath);
+	static Color ReadColor(const ParseFuncParams& params);
+	static Vec2D ReadSize(const ParseFuncParams& params);
+	static int ReadInt(const ParseFuncParams& params);
+	static std::string ReadString(const ParseFuncParams& params);
+	static char ReadChar(const ParseFuncParams& params);
 
 private:
 	std::vector<Command> mCommands;

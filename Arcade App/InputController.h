@@ -2,7 +2,6 @@
 #define INPUT_INPUTCONTROLLER_H_
 
 #include "InputAction.h"
-#include "GameController.h"
 
 class GameController;
 

@@ -1,9 +1,9 @@
 #ifndef GRAPHICS_BITMAPFONT_H_
 #define GRAPHICS_BITMAPFONT_H_
 
+#include <stdint.h>
 #include "SpriteSheet.h"
 #include "Utils.h"
-#include <stdint.h>
 
 class Vec2D;
 class AARectangle;
